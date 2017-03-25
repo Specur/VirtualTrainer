@@ -1,0 +1,404 @@
+﻿@CHARSET "UTF-8";
+
+body
+{
+	
+	
+	background-image: url("7107.jpg");
+	z-index:0;
+	
+}
+
+#admin_przyciski{
+  width: 120px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    border-style:hidden;
+    box-sizing: border-box;
+    outline: none;
+}
+#admin_przyciskii{
+  width: 100px;
+    background-color: #dddddd;
+ border: 0px ;
+    color: #000000;
+    font-size: 25px;
+    
+}
+
+#admin_przyciskiii{
+  width: 220px;
+    background-color: #dddddd;
+border: 0px ;
+    color: #000000;
+    font-size: 20px;
+   
+}
+#admin_przyciskiiii{
+  width: 20px;
+    background-color: #dddddd;
+border: 3px ;
+    color: red;
+    font-size: 20px;
+   
+}
+
+#ns{
+ width: 100%;
+    background-color:#ff0000;
+text-align:center;
+z-index:990;
+}
+
+
+input[type=text],
+input[type=number],
+input[type=url],
+input[type=email],
+textarea
+{
+    width: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+  
+
+}
+#menuuu{
+ width: 300px;
+    background-color: #4CAF50;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+#window > .button{
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer; 
+	width:200px;
+	height:200px;
+transition-duration:2s;
+}
+#window > .button:hover{
+	height:250px;
+	background-color: #4CFF50;
+}
+
+#window > .button2{
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer; 
+	width:250px;
+	height:120px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #dddddd}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+
+#baner{
+	
+	font-size:60px;
+	font-stretch:extra-condensed;
+	width: 1200px;
+        margin-left: 20px;
+        margin-top: 10px;
+	opacity:0.8;
+	z-index:10;
+	position:relative;
+}
+
+#baner i{
+	
+	color:white;	
+	font-size: 13px;
+	margin-left: 45px;
+}
+
+
+
+ /* Dropdown Button */
+.dropbtn {
+    position:relative;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index:11;
+}
+
+.myDropdown{
+position:relative;
+z-index:13;
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    float:right;
+    position: relative;
+    display: inline-block;
+	z-index:12;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ 	   color: black;
+	   font-size: 10px;
+	   padding: 12px 16px;
+	   text-decoration: none;
+ 	   display: block;
+	  
+	   
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+#menu{
+position:relative;
+	 float:left;
+	border: none;
+    border-radius: 5px;
+	background-color:#ffffff;
+	margin-left: 8%;
+	margin-top:50px;
+	height: 500px;
+	width:20%;
+	opacity: 0.7;
+	-webkit-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	z-index:5;
+	
+}
+
+
+#menu a{
+
+text-decoration: none;
+color:black;
+ 
+}
+
+#window{
+margin: 10px;
+	position:relative;
+	float:left;
+	border: none;
+	border-radius: 5px;
+	background-color:#ffffff;
+	margin-left: 3%;
+	margin-top:50px;
+	height: 500px;
+	width:62%;
+	opacity: 0.7;
+	-webkit-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	text-align:center;
+	font-size: 20px;
+	z-index:7;
+	overflow: auto;
+
+}
+#window_admin{
+margin: 10px;
+	position:relative;
+	float:left;
+	border: none;
+	border-radius: 5px;
+	background-color:#ffffff;
+	margin-left: 8%;
+	margin-top:50px;
+	height: 500px;
+	width:85%;
+	opacity: 0.7;
+	-webkit-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	text-align:center;
+	font-size: 20px;
+	z-index:7;
+	overflow: auto;
+
+}
+
+
+
+#odp{
+
+float:left;
+	border: none;
+    border-radius: 5px;
+	background-color:#aaaaaa;
+	margin-left: 25%;
+	margin-top:10px;
+	z-index:50;
+	height: 200px;
+	width: 350px;
+	overflow: hidden;
+font-size: 15px;
+	transition-duration:1s;
+
+}
+#odp:hover{
+	margin-left: 1%;
+	height: 100%;
+	width: 95%;
+	z-index:150;
+	overflow: hidden;
+	background-color:#ffffff;
+}
+
+
+#window3{
+margin: 10px;
+	position:relative;
+	float:left;
+	border: none;
+	border-radius: 5px;
+	background-color:#ffffff;
+	margin-left: 3%;
+	margin-top:50px;
+	height: 500px;
+	width:62%;
+	opacity: 0.9;
+	-webkit-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	text-align:center;
+	font-size: 20px;
+	z-index:7;
+	overflow: auto;
+
+}
+#obramowanie{
+	margin-left: 2%;
+}
+
+#news{
+border-bottom-style:dotted;
+}
+
+
+#window_mniejsze{
+	
+	font-size: 15px;
+	
+}
+
+#foot{
+	
+	
+	border: none;
+   	border-radius: 5px;
+	background-color:#FFFFFF;
+	width:85%;
+	opacity: 0.7;
+	
+	-webkit-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 14px 14px 21px -8px rgba(0,0,0,0.75);
+	
+	text-align:right;
+	font-size: 11px;
+	 clear:both;
+	margin: 10px;
+		bottom:5px;
+		height:25px;		
+		margin-left:8%;
+	
+
+	
+}
+
+
+#picture{
+	text-align:center;
+}
+
+.option{
+	color:#000000;
+	font-size:25px;
+	height:25px;
+	padding:10px;
+	border-bottom:2px dotted #444444;
+	font-weight: 900;
+	text-align:center;
+	position:relative;
+	
+	
+}
+
+
+
+.option:hover{
+	background-color: #3ac837;
+	 cursor:pointer;
+}
